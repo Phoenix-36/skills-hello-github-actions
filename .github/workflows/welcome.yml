@@ -2,5 +2,5 @@ name: Post Welcome commit
 on:
   pull_request:
     types: [opened]
-permission:
-pull-request: write
+permissions:
+pull-requests: write
